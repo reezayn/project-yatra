@@ -22,9 +22,9 @@ const Contact = () => {
             </div>
 
             <div className='flex space-x-4 text-xl'>
-              <div><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></div>
-              <div><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></div>
-              <div><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></div>
+              <div><a href="www.facebook.com"><ion-icon name="logo-facebook"></ion-icon></a></div>
+              <div><a href="www.twitter.com"><ion-icon name="logo-twitter"></ion-icon></a></div>
+              <div><a href="www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a></div>
             </div>
           </div>
 

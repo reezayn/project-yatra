@@ -16,11 +16,11 @@ const Footer = () => {
         <div className='sm:flex text-center justify-between items-center'>
           <h1>YATRA.</h1>
           <div className='flex justify-between w-full sm:max-w-[280px] my-4 px-4'>
-            <a href="http://www.facebook.com/" target="_blank"><FaFacebook className='icon' /></a>
-            <a href="http://www.twitter.com/" target="_blank"><FaTwitter className='icon' /></a>
-            <a href="http://www.youtube.com/" target="_blank"><FaYoutube className='icon' /></a>
-            <a href="http://www.pinterest.com/" target="_blank"><FaPinterest className='icon' /></a>
-            <a href="http://www.instagram.com/" target="_blank"><FaInstagram className='icon' /></a>
+            <a href="http://www.facebook.com/" target="_blank" rel="noreferrer"><FaFacebook className='icon' /></a>
+            <a href="http://www.twitter.com/" target="_blank" rel="noreferrer"><FaTwitter className='icon' /></a>
+            <a href="http://www.youtube.com/" target="_blank" rel="noreferrer"><FaYoutube className='icon' /></a>
+            <a href="http://www.pinterest.com/" target="_blank" rel="noreferrer"><FaPinterest className='icon' /></a>
+            <a href="http://www.instagram.com/" target="_blank" rel="noreferrer"><FaInstagram className='icon' /></a>
           </div>
         </div>
         <div className='flex justify-between'>

@@ -39,11 +39,11 @@ const Navbar = () => {
             <li className='border-b'><Link to="/#destinationsLast">Explore</Link></li>
             <li className='border-b'><Link to="/#exploreLast">Contact</Link></li>
             <div className='flex justify-between my-6 mx-5'>
-            <a href="http://www.facebook.com/" target="_blank"><FaFacebook className='icon' /></a >
-            <a href="http://www.twitter.com/" target="_blank"><FaTwitter className='icon' /></a >
-            <a href="http://www.youtube.com/" target="_blank"><FaYoutube className='icon' /></a >
-            <a href="http://www.pinterest.com/" target="_blank"><FaPinterest className='icon' /></a >
-            <a href="http://www.instagram.com/" target="_blank"><FaInstagram className='icon' /></a >
+            <a href="http://www.facebook.com/" target="_blank" rel="noreferrer"><FaFacebook className='icon' /></a >
+            <a href="http://www.twitter.com/" target="_blank" rel="noreferrer"><FaTwitter className='icon' /></a >
+            <a href="http://www.youtube.com/" target="_blank" rel="noreferrer"><FaYoutube className='icon' /></a >
+            <a href="http://www.pinterest.com/" target="_blank" rel="noreferrer"><FaPinterest className='icon' /></a >
+            <a href="http://www.instagram.com/" target="_blank" rel="noreferrer"><FaInstagram className='icon' /></a >
             </div>
             </ul>
         </div>
