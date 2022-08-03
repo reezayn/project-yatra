@@ -1,23 +1,30 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Destinations from "./components/Destinations";
-import Explore from "./components/Explore";
-// import Slider from "./components/Slider";
-import ScrollToTop from "./components/ScrollToTop";
-import Footer from "./components/Footer";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import ExploreTab from "./components/ExploreTab";
+import Blogs from "./components/Blogs";
+import About from "./components/About";
+import Home from "./components/Home";
+import SharedLayout from "./components/SharedLayout";
+import ErrorPage from "./components/ErrorPage";
+
 
 function App() {
   return (
-    <>
-    <Navbar />
-    <Hero />
-    <Destinations />
-    <Explore />
-    {/* <Slider /> */}
-    <ScrollToTop />
-    <Footer />
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<SharedLayout />}>
+        <Route index element={<Home />}/>
+        <Route path="about" element={<About />}/>
+        <Route path="blogs" element={<Blogs />} />
+        <Route path="exploreTab" element={<ExploreTab />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Route>
+    </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -4,6 +4,7 @@ import bgVid from "../assets/bgVid.mp4";
 
 const Hero = () => {
   return (
+    <>
     <div id='hero' className='w-full h-screen relative'>
         <video
         className='w-full h-full object-cover' 
@@ -25,6 +26,7 @@ const Hero = () => {
             </form>
         </div>
     </div>
+    </>
   )
 }
 

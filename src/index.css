@@ -33,7 +33,7 @@
         @apply text-xl font-bold
     }
     button{
-        @apply p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md
+        @apply p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-xl font-bold
     }
     .icon{
         @apply text-3xl cursor-pointer

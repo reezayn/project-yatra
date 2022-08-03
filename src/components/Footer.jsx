@@ -6,10 +6,12 @@ import {
   FaPinterest,
   FaYoutube,
 } from 'react-icons/fa';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Footer = () => {
   return (
-    <div id='footer' className='w-full bg-gray-100 py-16'>
+    <div id='footer' className='w-full bg-gray-100 py-5'>
       <div className='max-w-[1240px] mx-auto flex flex-col px-4'>
         <div className='sm:flex text-center justify-between items-center'>
           <h1>YATRA.</h1>
@@ -23,16 +25,16 @@ const Footer = () => {
         </div>
         <div className='flex justify-between'>
           <ul className='lg:flex'>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Partnerships</a></li>
-            <li><a href="/">Blogs</a></li>
-            <li><a href="/">Advertising</a></li>
+            <li><Link to="about">About</Link></li>
+            <li><Link to="/">Partnerships</Link></li>
+            <li><Link to="blogs">Blogs</Link></li>
+            <li><Link to="/">Advertising</Link></li>
           </ul>
           <ul className='text-right lg:flex'>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#destinations">Destinations</a></li>
-            <li><a href="#explore">Explore</a></li>
-            <li><a href="#footer">Contact</a></li>
+            <li><Link to="/#hero">Home</Link></li>
+            <li><Link to="/#destinations">Destinations</Link></li>
+            <li><Link to="/#explore">Explore</Link></li>
+            <li><Link to="/#footer">Contact</Link></li>
           </ul>
         </div>
       </div>

@@ -85,6 +85,8 @@ const Destinations = () => {
           );
         })}
       </div>
+      <div id='destinationsLast' className="h-0">{/* this is created so that navbar doesnot covers content of section following this div, which is explore section in this case  */}
+      </div>
     </Section>
   );
 };
@@ -101,7 +103,7 @@ const Section = styled.section`
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
-      background-color: #8338ec14;
+      background-color: #dbdaf8;
       border-radius: 1rem;
       transition: 0.3s ease-in-out;
       &:hover {
